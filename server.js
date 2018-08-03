@@ -38,7 +38,7 @@ app.get('/login/authorization', (req, res, next) => {
     if (req.query.error) {
         res.send(req.query.error + ": " + req.query.error_description);
     } else {
-        res.redirect('http://localhost:3000/auth');
+        res.redirect(req.baseUrl + '/auth');
     }
 });
 
