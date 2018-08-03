@@ -1,0 +1,21 @@
+.user-image-container {
+    float: left;
+}
+
+.user-image-container img {
+    width: 3.5em;
+    height: auto;
+}
+
+.message-from-user {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.message-send-date {
+    display: inline-block;
+    font-size: .9em;
+    padding-left: .7em;
+    color: grey;
+}

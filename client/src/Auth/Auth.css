@@ -1,0 +1,23 @@
+.auth-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.login-image-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 5%;
+}
+
+.login-image-container img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+.login-image-container div {
+    text-align: center;
+    font-size: 18px;
+}

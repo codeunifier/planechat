@@ -3,9 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "auth0-js": "^9.7.3",
     "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "rxjs": "^6.2.2",
+    "sendbird": "^3.0.69"
   },
   "scripts": {
     "start": "react-scripts start",

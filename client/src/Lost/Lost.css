@@ -1,0 +1,25 @@
+.lost-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 5%;
+}
+
+.lost-container img {
+    width: 100%;
+    height: auto;
+}
+
+.lost-container div {
+    text-align: center;
+    margin: 5px;
+}
+
+.error-text {
+    font-size: 22px;
+    color: red;
+}
+
+.normal-text {
+    font-size: 16px;
+}
