@@ -38,12 +38,8 @@ app.get('/login/authorization', (req, res, next) => {
     if (req.query.error) {
         res.send(req.query.error + ": " + req.query.error_description);
     } else {
-        res.redirect(req.baseUrl + '/auth');
+        res.redirect(process.env.NODE_ENV === "production" ? ('https://planechat.herokuapp.com/auth') : ('http://localhost:3000/auth'));
     }
-});
-
-app.get('/login/image', (req, res) => {
-    res.sendFile('C:\\Users\\briane.SITESUSA\\Dropbox\\planechat\\client\\src\\logo.svg');
 });
 
 app.listen(port, () => console.log('Listening on port ' + port));

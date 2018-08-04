@@ -7,7 +7,7 @@ export default class Unauth extends Component {
     render() {
         return (
             <div className="unauth-container">
-                <div>This is not the page you're looking for...</div>
+                <div>You shouldn't be here...</div>
                 <img src={unauthorized} alt="Unauthorized"/>
             </div>
         )
