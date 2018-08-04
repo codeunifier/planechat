@@ -41,6 +41,8 @@ export default class AuthService {
     }
 
     login() {
-        this.auth0.authorize();
+        this.auth0.authorize({
+            redirect_uri: process.env.NODE_ENV === 'production' ? 'https://planechat.herokuapp.com/auth' : 'http://localhost:3000/auth'
+        });
     }
 }
